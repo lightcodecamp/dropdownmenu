@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Dropdown Menu</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Dropdown</div>
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle"> <img src="img/menu.png" alt=" menu"></label>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a>
+          <ul>
+            <li><a href="#">Web Development <span>25</span></a></li>
+            <li><a href="#">Web Design <span>10</span></a></li>
+            <li><a href="#">SEO <span>15</span></a></li>
+            <li><a href="#">Mobile App Development 
+            </a>
+
+            <ul>
+              <li>
+                <a href="#">React Native <span>12</span></a>
+              </li>
+              <li>
+                <a href="#">Flutter <span>10</span></a>
+              </li>
+              <li>
+                <a href="#">Swift <span>13</span></a>
+              </li>
+              <li>
+                <a href="#">Java <span>8</span></a>
+              </li>
+            </ul>
+          </li>
+          </ul>
+        </li>
+        <li><a href="#">Blog</a>
+
+          <ul>
+            <li><a href="#">HTML <span>30 Posts</span></a></li>
+            <li><a href="#">CSS <span>20 Posts</span></a></li>
+            <li><a href="#">JavaScript <span>10 Posts</span></a></li>
+            <li><a href="#">Design <span>32 Posts</span></a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero"></div>
+</body>
+</html>
